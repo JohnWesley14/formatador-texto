@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: rgb(6, 36, 51);
+}
+
+textarea {
+    padding-left: 5px;
+    width: 200px;
+    background-color: rgb(36, 43, 44);
+    color: white;
+}
+
+section {
+    min-width: 300px;
+    display: grid;
+    place-items: center;
+}
+
+h3 {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+p {
+    color: white;
+    word-wrap: break-word;
+
+
+}
+
+h1 {
+    color: white;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TextSection {
+    min-height: 30px;
+    margin: 10px 0px 10px 0px;
+    max-width: 205px;
+
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aumento {
+    font-size: 28px;
+}
+
+button {
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: rgb(56, 66, 71);
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.minusculo {
+    text-transform: lowercase;
+}
+
+.italico {
+    font-style: italic;
+}
