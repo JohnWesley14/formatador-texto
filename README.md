@@ -1,4 +1,4 @@
-# NLW eSposrts - Trilha Explorer
+
 
 ![preview](preview.png)
 
